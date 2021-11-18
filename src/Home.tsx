@@ -198,7 +198,7 @@ const Home = (props: HomeProps) => {
               )
             ) : (
               <Countdown
-                date={startDate}
+                date={1637254800}
                 onMount={({ completed }) => completed && setIsActive(true)}
                 onComplete={() => setIsActive(true)}
                 renderer={renderCounter}
